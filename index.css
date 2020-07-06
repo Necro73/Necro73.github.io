@@ -18,25 +18,6 @@
     margin:3% 0;
 }
 
-.artec1{
-    display: inline;
-    margin-left: 65px;
-    padding-top: 30px;
-    width:340px;
-}
-.artec2{
-    display: inline;
-    margin-left: 65px;
-    padding-top: 30px;
-    width:340px;
-}
-.artec3{
-    display: inline;
-    margin-left: 65px;
-    padding-top: 30px;
-    width:340px;
-}
-
 img{
     width: 100%;
     height: 200px;
@@ -280,56 +261,60 @@ h3{
 
 @media (min-width: 360px) {
     .start-string, .cards, .see-cards, .blue-zone{font-size: 2em;}
+
     .artec1{
         float: left;
-        padding-right: 200%;
-        padding-left: 11%;
+        padding-right: 0px;
+        margin-left: 0px;
         padding-top: 30px;
-        width:100%;
+        width:340px;
     }
     .artec2{
         float: left;
-        padding-right: 1000px;
-        padding-left: 11%;
+        padding-right: 0;
+        margin-left: 0px;
         padding-top: 30px;
-        width:330px;
+        width:340px;
     }
     .artec3{
         float: left;
-        padding-left: 11%;
+        margin-left: 0px;
         padding-top: 30px;
-        width:330px;
+        width:340px;
     }
+
     .blue_zone{
-        width:700px;
+        width:1000px;
     }
     .cards{
-        padding-left: 7.2%;
+        padding-left: 0%;
     }
 }
 
 @media (min-width: 768px) {
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
+
     .artec1{
         float: left;
-        padding-right: 0;
-        padding-left: 3%;
-        padding-top: 50px;
-        width:330px;
+        padding-right: 0px;
+        margin-left: 10px;
+        padding-top: 30px;
+        width:340px;
     }
     .artec2{
         float: left;
         padding-right: 0;
-        padding-left: 3%;
-        padding-top:50px;
-        width:330px;
+        margin-left: 10px;
+        padding-top: 30px;
+        width:340px;
     }
     .artec3{
         float: left;
-        padding-left: 3%;
+        margin-left: 10px;
         padding-top: 30px;
-        width:330px;
+        width:340px;
     }
+
     .line_see_project{
         width:43;
     }
@@ -340,60 +325,64 @@ h3{
 
 @media (min-width: 1440px) {
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
+
     .artec1{
         float: left;
-        padding-right: 0;
-        padding-left: 0.25%;
+        padding-right: 0px;
+        margin-left: 70px;
         padding-top: 30px;
-        width:330px;
+        width:340px;
     }
     .artec2{
         float: left;
         padding-right: 0;
-        padding-left: 0.25%;
+        margin-left: 70px;
         padding-top: 30px;
-        width:330px;
+        width:340px;
     }
     .artec3{
         float: left;
-        padding-left: 0.25%;
+        margin-left: 70px;
         padding-top: 30px;
-        width:330px;
+        width:340px;
     }
+
     .line_see_project{
         width:43%;
     }
     .cards{
-        padding-left: 11.5%;
+        padding-left: 2%;
     }
 }
 
 @media (min-width: 1920px) {
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
+
     .artec1{
         float: left;
-        padding-right: 0;
-        padding-left: 11%;
+        padding-right: 0px;
+        margin-left: 132px;
         padding-top: 30px;
-        width:330px;
+        width:340px;
     }
     .artec2{
         float: left;
         padding-right: 0;
-        padding-left: 11%;
+        margin-left: 132px;
         padding-top: 30px;
-        width:330px;
+        width:340px;
     }
     .artec3{
         float: left;
-        padding-left: 11%;
+        margin-left: 132px;
         padding-top: 30px;
-        width:330px;
+        width:340px;
     }
+
     .line_see_project{
         width:43%;
     }
     .cards{
-        padding-left: 7.2%;
+        padding-left: 6.7%;
     }
 }
