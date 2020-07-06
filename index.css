@@ -76,9 +76,13 @@ img{
 }
 
 .card{
-    background: #F4F4F4;
+    border-width: 0px;
+    background: #FFFFFF;
     border-radius: 10px;
     width:340px;
+}
+.card:hover{
+    background: #F4F4F4;
 }
 
 .circle {
