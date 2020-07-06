@@ -19,24 +19,20 @@
 }
 
 .artec1{
-    display: inline-table;
-    float: left;
-    padding-right: 0%;
-    padding-left: 40%;
+    display: inline;
+    margin-left: 65px;
     padding-top: 30px;
     width:340px;
 }
 .artec2{
-    display: table;
-    float: left;
-    padding-left: 40%;
+    display: inline;
+    margin-left: 65px;
     padding-top: 30px;
     width:340px;
 }
 .artec3{
-    display: inline-table;
-    float: left;
-    padding-left: 40%;
+    display: inline;
+    margin-left: 65px;
     padding-top: 30px;
     width:340px;
 }
