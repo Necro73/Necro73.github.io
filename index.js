@@ -30,7 +30,7 @@ var x = Vue.component('card_assembl',
     <div class="card">
         <img :src="imgs" />
         <br>
-        <b>{{name}}</b>
+        <p class="name-card">{{name}}</p>
         <br>
         <p>{{text}}</p>
         <table border="0" cellspacing="10pt">
