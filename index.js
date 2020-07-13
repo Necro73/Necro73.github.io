@@ -28,12 +28,12 @@ var x = Vue.component('card_assembl',
     template:
     `
     <div class="card">
-        <img :src="imgs" />
+        <img :src="imgs" class="img1" />
         <br>
         <p class="name-card">{{name}}</p>
         <br>
         <p class="text-card">{{text}}</p>
-        <img src="perc1.jpg">
+        <img src="perc1.jpg" class="img2">
         <div style="padding-left:20px;"><table border="0" cellspacing="10pt">
             <tr>
                 <td>
