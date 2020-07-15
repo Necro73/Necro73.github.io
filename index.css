@@ -75,7 +75,8 @@
 
 }
 
-.button_circle{
+.card .button_circle{
+    display:none;
     margin-bottom: -30px;
     border-radius: 100%;
     background: linear-gradient(360deg, #005EF3 0%, #689EF4 100%);
@@ -84,6 +85,7 @@
     border-width: 0px;
     color: white;
 }
+.card:hover .button_circle{display: inline}
 .button_circle:hover{
     background: #005EF3;
     box-shadow: 0px 15px 25px rgba(0, 94, 243, 0.4);
