@@ -175,7 +175,6 @@ h3{
     width: 198px;
     height: 80px;
     left: 432px;
-    bottom: 110px;
 
     color: white;
     font-size: 125%;
@@ -215,42 +214,20 @@ h3{
 .roster{
     padding-top: 40px;
     padding-left: 89px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 50px;
     line-height: 60px;
-
     letter-spacing: -0.01em;
-}
 
-.sadaka1{
-    color: #4C8EF7;
+    color: #0866FB;
+    transition: 0.5s linear;
 }
-
-.zakyat{
-    color: #FFFFFF;
-}
-
-.fitr1{
-    color: #4C8EF7;
-}
-
-.sadaka2{
-    color: #2563F5;
-}
-
-.fitr2{
-    color: #115FF4;
-}
+.roster:hover{color: #FFFFFF;}
 
 .more_text{
     position: relative;
-    width: 198px;
-    height: 80px;
-    left: 432px;
-    top: -500px;
 
     font-family: Rubik;
     font-style: normal;
@@ -270,19 +247,52 @@ h3{
 
 @media (min-width: 360px) {
     .start-string, .cards, .see-cards, .blue-zone{font-size: 2em;}
+    .listq{display:flex;}
     .blue_zone{
-        width:500px;
+        width: 3840px;
+        height: 529px;
     }
+    .more_text{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .button10{bottom: 110px;}
 }
 
 @media (min-width: 768px) {
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
+    .listq{display:flex;}
+    .more_text{
+        padding-top: 45px;
+        padding-left: 40px;
+    }
+    .button10{bottom: 50px;}
 }
 
 @media (min-width: 1440px) {
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
+    .listq{display:block;}
+        .more_text{
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 198px;
+        height: 80px;
+        left: 432px;
+        top: -500px;
+    }
+    .button10{bottom: 60px;}
 }
 
 @media (min-width: 1920px) {
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
+    .listq{display:block;}
+    .more_text{
+        padding-top: 0px;
+        padding-left: 0px;
+        width: 198px;
+        height: 80px;
+        left: 432px;
+        top: -500px;
+    }
+    .button10{bottom: 110px;}
 }
