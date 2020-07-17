@@ -236,7 +236,7 @@ h3{
 
 .more_text{
     position: relative;
-
+    margin-top: -100px;
     font-family: Rubik;
     font-style: normal;
     font-weight: 300;
@@ -256,15 +256,15 @@ h3{
 @media (min-width: 360px) {
     .start-string, .cards, .see-cards, .blue-zone{font-size: 2em;}
     .listq{display:flex;}
-    .blue_zone{
-        width: 3840px;
-        height: 529px;
-    }
     .more_text{
         padding-top: 20px;
         padding-left: 20px;
     }
     .button10{bottom: 110px;}
+    .blue_zone{
+        width: 100%;
+        height: 529px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -275,6 +275,10 @@ h3{
         padding-left: 40px;
     }
     .button10{bottom: 50px;}
+    .blue_zone{
+        width: 300%;
+        height: 100%;
+    }
 }
 
 @media (min-width: 1440px) {
