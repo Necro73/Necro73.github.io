@@ -9,7 +9,6 @@
 }
 
 .see-cards{
-    padding-top: 46px;
     display: flex;
     justify-content: center;
 }
@@ -21,6 +20,15 @@
     float:left;
     margin:3% 0;
 }
+
+.leveler{
+    display: flex;
+    width:100%;
+    height:46px;
+}
+.artec1:hover ~ .leveler{height:4px}
+.artec2:hover ~ .leveler{height:30px}
+.artec3:hover ~ .leveler{height:31px}
 
 .img1{
     width: 100%;
