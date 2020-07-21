@@ -1,5 +1,6 @@
 .All-father{
-    
+    width:100%;
+    display: grid;
 }
 
 .start-string{
@@ -20,6 +21,7 @@
     background:#005EF3;
     color:white;
     width:100%;
+    height:100%;
     float:left;
     margin:3% 0;
 }
@@ -194,7 +196,6 @@ h3{
     position: relative;
     width: 198px;
     height: 80px;
-    left: 432px;
 
     color: white;
     font-size: 125%;
@@ -270,7 +271,8 @@ h3{
     width:360px;
 } 
 
-@media (min-width: 360px) {
+@media (min-width: 361px) {
+    .All-father{max-width: 360px;}
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
     .cards{margin-right: 0px;}
     .listq{display:flex;}
@@ -278,10 +280,11 @@ h3{
         padding-top: 20px;
         padding-left: 20px;
     }
-    .button10{bottom: 110px;}
+    .button10{bottom: 30px; left: 40px}
 }
 
 @media (min-width: 768px) {
+    .All-father{max-width: 768px;}
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
     .cards{margin-right: 0px;}
     .listq{display:flex;}
@@ -289,10 +292,11 @@ h3{
         padding-top: 45px;
         padding-left: 40px;
     }
-    .button10{bottom: 50px;}
+    .button10{bottom: 30px; left: 40px}
 }
 
 @media (min-width: 1440px) {
+    .All-father{max-width: 1440px;}
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
     .cards{margin-right: 60px;}
     .listq{display:block;}
@@ -304,10 +308,11 @@ h3{
         left: 432px;
         top: -500px;
     }
-    .button10{bottom: 60px;}
+    .button10{bottom: 60px; left: 430px}
 }
 
 @media (min-width: 1920px) {
+    .All-father{max-width: 1920px;}
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
     .cards{margin-right: 60px;}
     .listq{display:block;}
@@ -319,5 +324,5 @@ h3{
         left: 432px;
         top: -500px;
     }
-    .button10{bottom: 110px;}
+    .button10{bottom: 110px; left: 420px}
 }
