@@ -196,6 +196,7 @@ h3{
     position: relative;
     width: 198px;
     height: 80px;
+    left:0px;
 
     color: white;
     font-size: 125%;
@@ -271,8 +272,8 @@ h3{
     width:360px;
 } 
 
-@media (min-width: 361px) {
-    .All-father{max-width: 360px;}
+@media (min-width: 360px) and (max-width: 767px) {
+    /*.All-father{max-width: 360px;}
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
     .cards{margin-right: 0px;}
     .listq{display:flex;}
@@ -280,10 +281,10 @@ h3{
         padding-top: 20px;
         padding-left: 20px;
     }
-    .button10{bottom: 30px; left: 40px}
+    .button10{bottom: 30px; left: 100px}*/
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1439px) {
     .All-father{max-width: 768px;}
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
     .cards{margin-right: 0px;}
@@ -295,7 +296,7 @@ h3{
     .button10{bottom: 30px; left: 40px}
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 1919px) {
     .All-father{max-width: 1440px;}
     .start-string, .cards, .see-cards, .blue-zone{font-size: 1em;}
     .cards{margin-right: 60px;}
